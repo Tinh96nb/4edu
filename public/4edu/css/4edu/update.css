@@ -1,0 +1,45 @@
+.box .active {
+	background-color: #eee;
+}
+.setting ul li {
+	margin-bottom: 10px;
+}
+.setting ul li a .text-label,.text-content,.text-edit {
+	display: inline-block;
+	font-size: 13px;
+}
+.setting ul li a .text-label  {
+	color: #333;
+	width: 30%;
+}
+.setting ul li a .text-content {
+	width: 50%;
+	color: #90949c;
+	font-weight: bold;
+}
+.setting ul li a .text-edit {
+	width: 18%;
+	color: #365899;
+}
+.setting ul li .panel-body{
+	background: #f2f2f2;
+	padding: 15px 100px 15px 100px;
+}
+.setting ul li .panel-body label {
+	color: #666;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 12px;
+}
+.setting ul li .panel-body p {
+	line-height: 16px;
+	font-size: 12px;
+	display: block;
+	color: #90949c;
+}
+.setting ul li .panel-body button{
+	font-size: 11px;
+}
+.setting ul li .panel-body input[type='submit']{
+	font-size: 11px;
+}

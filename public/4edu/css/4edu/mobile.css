@@ -1,0 +1,437 @@
+li a.lisst{
+	display: none;
+}
+[data-notify="progressbar"] {
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 5px;
+}
+/*===================================
+=            css pc user            =
+===================================*/
+.name-last input[type="text"]{
+	display: inline-block;
+	width: 37%;
+}
+.sdt{
+	width: 75%;
+}
+.dieuk{
+	width: 76%;
+}
+.contents{
+	background: linear-gradient(white,#d3d8e8);
+	background: -webkit-linear-gradient(white,#d3d8e8);
+	background: -moz-linear-gradient(white,#d3d8e8);
+	background: -oz-linear-gradient(white,#d3d8e8);
+}
+.foredu{
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+}
+/*=====  end of css pc user  ======*/
+
+
+
+a.lisst{
+	display: none ;
+}
+@media all and (max-width: 1024px) {
+/*================================
+=            css user            =
+================================*/
+div#cte{
+	width: 940px;
+}
+#cte div.content-left{
+	width: 540px;
+}
+.col-left img{
+	width: 444px;
+}
+
+/*=====  end of css user  ======*/
+
+}
+@media all and (max-width: 768px) {
+	.time-line a i{
+		display: block;
+		text-align: center;
+	}
+	.timkiem {
+		display: none;
+	}
+	
+	.time-line{
+		width: 100%;
+		height: 40px;
+		display: none;
+		clear: both;
+	}
+	
+	.tool-bar div.avatar {
+		background: none !important;
+		border-radius: 3px;
+		box-shadow: 0 0 0 !important;		
+		display: block;
+		left: 33%;
+		padding: 1px;
+		position: relative;
+		bottom: 108px;
+
+	}
+	.tool-bar div.title-pf{
+		text-shadow: 0px 0px 0px;
+		color: #333;
+	}
+	.tool-bar .avatar img{
+		box-shadow: 0px 2px 2px;
+	}
+	.two-content, .three-content, .mul-content {
+		height: 535px;
+		overflow: inherit !important;
+		margin-bottom: 10px;
+	}
+	.three-content .item-img img {
+		width: 100% !important;
+	}
+	.three-content img {
+		height: auto !important;
+		width: 100%;
+	}
+	.mul-content .item-img {
+		float: left;
+		/* width: 216px !important; */
+		min-width: 72px;
+		height: 180px !important;
+		display: inline-block;
+		overflow: hidden;
+	}
+	img {
+		vertical-align: middle;
+		border: 1px solid #fff !important;
+	}
+	.mb-content-3 .left-col img {
+		height: 500px;
+		width: 100% !important;
+	}
+	.mb-content-4 .right-col .item-img img {
+		width: 100% !important;
+		height: auto;
+	}
+	.mb-content-3 .right-col .item-img img {
+		width: 100% !important;
+		height: 250px;
+	}
+	.mb-content-4 .left-col img {
+		height: 500px;
+		width: 100% !important;
+	}
+	.mb-content-2 .item-img img {
+		width: 100% !important;
+		height: auto !important;
+		border: 1px solid #fff !important;
+	}
+	.skin-blue .main-header .logo{
+		display: none;
+	}
+	.mul-content .item-img img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.col-md-3.col-xs-12.canhan {
+		display: none;
+	}
+	col-md-6.col-xs-12.noidung{
+		padding: 0px;
+		min-width: 105% !important;
+	}
+	.sapxep{
+		margin-right: 36px !important;
+	}
+	.settinh{
+		display: none !important;
+	}
+	a.lisst{
+		cursor: pointer;
+		display: block ;
+	}
+	aside#canhanng {
+		margin-top: -43px;
+	}
+	.control-sidebar-dark, .control-sidebar-dark+.control-sidebar-bg {
+		background: #ffffff !important;
+	}
+	.time-line .row {
+		background: #f9f9f9;
+		padding: 10px 0px;
+	}
+	/*================================
+	=            css user            =
+	================================*/
+	div.content-left{
+		display: none;
+	}
+	#cte div.content-right{
+		width: 88%;
+	}
+	.col-left {
+		display: none;
+	}
+	.name-last input[type="text"]{
+		display: inline-block;
+		width: 44.7%;
+	}
+	.sdt{
+		width: 90%;
+	}
+	.dieuk{
+		width: 90%;
+	}
+	/*=====  end of css user  ======*/
+	
+	/*=======================================
+	=            css user update            =
+	=======================================*/
+	
+	div.conte{
+		padding: 0px;
+		width: 92%;
+	}
+	
+	/*=====  end of css user update  ======*/
+	
+}
+@media all and (max-width: 414px) {
+	.navbar-custom-menu ul.dropdown-menu{
+		width: 300px !important;
+	}
+	.tool-bar div.avatar {
+		background: none !important;
+		border-radius: 3px;
+		box-shadow: 0 0 0 !important;
+		display: block;
+		left: 21%;
+		padding: 1px;
+		position: relative;
+		bottom: 108px;
+	}
+
+	/*fix col profile*/
+	div.content-pro{
+		padding: 0px;
+		margin-top: -44px;
+		width: 100.6%;
+	}
+	ul#menudown.dropdown-menu{
+		width: 333px;
+	}
+	.tool-bar div.title-pf {
+		position: absolute;
+		color: #333;
+		bottom: 70px;
+		left: 101px;		
+	}
+	.two-content, .three-content,.mul-content {
+		height: inherit !important;
+		min-height: 352px !important;
+		
+	}
+	#munus> li >a{
+		padding: 10px 3px !important;
+	}
+	.mul-content .item-img{
+		/* width: 122px !important; */
+		height: auto !important;
+	}
+
+	.timkiem {
+		display: none;
+	}
+	.skin-blue .main-header .logo{
+		display: none;
+	}
+	.col-md-3.col-xs-12.canhan {
+		display: none;
+	}
+	.col-md-6.col-xs-12.noidung{
+		padding: 0px !important;
+		margin-top: -44px;
+		min-width: 105% !important;
+	}
+	.sapxep{
+		margin-right: 0px !important;
+	}
+	/*=======================================
+	=            css update user            =
+	=======================================*/
+	div.conte {
+		padding: 0px;
+		width: 100%;		
+	}	
+	.install{
+		margin-top: -50px;
+	}
+	div.setting ul li a .text-edit {
+		width: 23%;
+		color: #365899;
+	}
+	div.setting ul li .panel-body{
+		padding: 15px;
+	}
+	div.row-btn{
+		margin-left: auto;
+	}
+	/*=====  end of css update user  ======*/
+}
+@media all and (max-width: 375px) {
+	.tool-bar div.avatar{
+		left: 20%;
+	}
+	.border-box.size-img table{
+		margin-left: -7px;
+	}
+	.tool-bar div.title-pf {
+		position: absolute;
+		color: #333;
+		bottom: 80px;
+		left: 96px;
+	}
+	.timkiem {
+		display: none;
+	}
+	.mul-content div.item-img {
+		/* width: 108.8px !important; */
+	}
+	.two-content, .three-content, .mul-content {
+		min-height: 316px !important;
+		height: inherit !important;
+	}
+	.mul-content .item-img {
+		/* width: 108px !important; */
+	}
+	.dt-submit .select-icon i{
+		margin-left: -7px;
+	}
+	#munus> li >a{
+		padding: 10px 3px !important;
+		font-size: 12px !important;
+	}
+	.skin-blue .main-header .logo{
+		display: none;
+	}
+	.col-md-3.col-xs-12.canhan {
+		display: none;
+	}
+	col-md-6.col-xs-12.noidung {
+		padding: 0px;
+	}
+	.sapxep{
+		margin-right: 0px !important;
+	}	
+	/*=======================================
+	=            css update user            =
+	=======================================*/
+	div.setting ul li a .text-edit {
+		width: 26%;
+		color: #365899;
+	}
+	
+	
+	/*=====  end of css update user  ======*/
+	
+}
+@media all and (max-width: 360px) {
+	.mul-content .item-img img {
+		width: 104px !important;
+		height: 123px  !important;
+	}
+	.mul-content div.item-img {
+		/* width: 102.9px !important; */
+	}
+	.tool-bar div.title-pf {
+		position: absolute;
+		color: #333;
+		bottom: 80px;
+		left: 88px;
+	}
+	.tool-bar div.avatar {
+		left: 19%;
+	}
+	.two-content, .three-content, .mul-content {
+		min-height: 342px  !important;	
+		overflow: hidden;
+	}
+	.timkiem {
+		display: none;
+	}
+	#munus> li >a{
+		padding: 10px 3px !important;
+		font-size: 12px !important;
+	}
+	.skin-blue .main-header .logo{
+		display: none;
+	}
+	.col-md-3.col-xs-12.canhan {
+		display: none;
+	}
+	col-md-6.col-xs-12.noidung {
+		padding: 0px;
+	}
+	.sapxep{
+		margin-right: 0px !important;
+	}
+
+}
+@media all and (max-width: 320px) {
+	.timkiem {
+		display: none;
+	}
+	.mul-content div.item-img {
+		/* width: 89px !important; */
+		height: 109px !important;
+	}
+	.two-content, .three-content, .mul-content {
+		min-height: 269px  !important;	
+		overflow: hidden;
+	}
+	.select-icon,.text-muted{
+		display: none !important;
+	}
+	#munus> li >a{
+		padding: 10px 0px !important;
+		font-size: 12px !important;
+	}
+	.skin-blue .main-header .logo{
+		display: none;
+	}
+	.col-md-3.col-xs-12.canhan {
+		display: none;
+	}
+	.col-md-6.col-xs-12.noidung {
+		padding: 0px;
+		margin-top: -40px;
+	}
+	col-md-6.col-xs-12.noidung {
+		padding: 0px;
+	}
+	.sapxep{
+		margin-right: 0px !important;
+	}
+	/*=======================================
+	=            css update user            =
+	=======================================*/
+	div.setting ul li a .text-edit {
+		width: 31%;
+		color: #365899;
+	}
+	
+	
+	/*=====  End of css update user  ======*/
+	
+}
