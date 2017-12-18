@@ -12,6 +12,10 @@ Route::group(['middleware' => ['web'], 'prefix' => '', 'namespace' => 'Modules\A
 
 	Route::post('login', 'LoginController@postLogin');
 
+	Route::get('login/facebook', 'SocialController@redirectToProvider');
+	
+	Route::get('login/facebook/callback', 'SocialController@handleProviderCallback');
+
 	Route::get('logout', function(){
 		Auth::logout();
 		return redirect(route('login'));

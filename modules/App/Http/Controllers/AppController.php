@@ -24,4 +24,12 @@ class AppController extends Controller
 
         return view('form');
     }
+    public function index()
+    {
+        return view("app::index");
+    }
+    public function profile()
+    {
+        return view("app::profile");
+    }
 }

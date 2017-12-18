@@ -15,12 +15,12 @@ class CreateSocialUserTalbe extends Migration
     {
         Schema::create('user_social', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('social_id')->unique();
-            $table->string('email')->nullable();
+            $table->integer('user_id')->unsigned();
+            $table->string('social_id',200)->unique();
+            $table->string('email',100)->nullable();
             $table->string('phone')->nullable();
             $table->string('fullname')->nullable();
             $table->string('type_social');
-            $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });

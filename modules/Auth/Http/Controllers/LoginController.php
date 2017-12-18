@@ -18,7 +18,7 @@ class LoginController extends Controller
     public function getLogin()
     {
       if (Auth::check()) {
-       return redirect(route('list.user'));
+       return redirect(route('home'));
      }
      return view('auth::login');
    }
@@ -38,7 +38,7 @@ class LoginController extends Controller
     }
 
     if (Auth::check()) {
-      return redirect(route('list.user'));
+      return redirect(route('home'));
     }
     else{
       $notification = array(

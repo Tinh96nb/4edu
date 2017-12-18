@@ -22,6 +22,7 @@ class CreateUsersTalbe extends Migration
             $table->string('phone')->nullable();
             $table->string('avatar')->nullable();
             $table->string('gender')->nullable();
+            $table->boolean('active')->default(false);
             $table->timestamps();
             $table->rememberToken();
         });

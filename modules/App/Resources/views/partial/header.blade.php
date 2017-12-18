@@ -237,7 +237,7 @@
 						@if(Auth::user())
 						{{ Auth::user()->fullname }}
 						@else
-						Hòa đê nhất
+						Phạm Tính
 						@endif
 					</span>
 				</a>
@@ -250,7 +250,7 @@
 							@if(Auth::user())
 							{{ Auth::user()->fullname }}
 							@else
-							Hòa đê nhất
+							Phạm Tính
 							@endif
 							<small>Aministrator</small>
 						</p>
@@ -273,7 +273,7 @@
 					<!-- Menu Footer-->
 					<li class="user-footer">
 						<div class="pull-left">
-							<a href="" class="btn btn-default btn-flat">Profile</a>
+							<a href="profile/{{ Auth::id() }}" class="btn btn-default btn-flat">Profile</a>
 						</div>
 						<div class="pull-right">
 							<a href="{{ route('logout') }}" class="btn btn-default btn-flat">Sign out</a>
